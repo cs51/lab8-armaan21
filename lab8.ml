@@ -128,7 +128,7 @@ decide how to implement this.
 Exercise 2: Write remove_listener, which, given an id and an event,
 unregisters the listener with that id from the event if there is
 one. If there is no listener with that id, do nothing.
-......................................................................*)
+.............................................2.........................*)
             
   let remove_listener (evt : 'a event) (i : id) : unit =
     failwith "WEvent.remove_listener not implemented"
